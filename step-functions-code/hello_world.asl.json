@@ -1,0 +1,11 @@
+{
+  "Comment": "A simple AWS Step Functions state machine that says Hello World",
+  "StartAt": "HelloWorld",
+  "States": {
+    "HelloWorld": {
+      "Type": "Pass",
+      "Result": "Hello, World!",
+      "End": true
+    }
+  }
+}
